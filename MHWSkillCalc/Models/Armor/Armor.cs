@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using Models.Skill;
 
 namespace Models.Armor
 {
@@ -16,6 +13,12 @@ namespace Models.Armor
         public int rarity { get; set; }
         public Defense defense { get; set; }
         public Resistance resistance { get; set; }
+        public IEnumerable<Slot> slots { get; set; }
+        public IEnumerable<SkillRank> skills { get; set; }
+        public SetInfo armorSet { get; set; }
+        public Assets assets { get; set; }
+        public CraftingInfo crafting { get; set; }
+
 
         public ArmorType armorType { get { return ArmorTypeConverter.GetArmorTyp(type); } }
         public Rank armorRank { get { return RankConverter.GetRank(rank); } }

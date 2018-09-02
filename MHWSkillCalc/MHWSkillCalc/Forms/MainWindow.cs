@@ -22,7 +22,8 @@ namespace MHWSkillCalc.Forms
 
         private async void cmdLoadData_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = await GetArmors();
+            var armors = await GetArmors();
+            dataGridView1.DataSource = armors;
         }
 
         public async Task<IEnumerable<Models.Armor.Armor>> GetArmors()

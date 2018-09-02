@@ -13,3 +13,18 @@ D:\Projects\MHW Skill Calculator\MHWSkillCalc\MHWSkillCalc\bin\Debug\Newtonsoft.
 D:\Projects\MHW Skill Calculator\MHWSkillCalc\MHWSkillCalc\bin\Debug\Models.pdb
 D:\Projects\MHW Skill Calculator\MHWSkillCalc\MHWSkillCalc\bin\Debug\Newtonsoft.Json.xml
 D:\Projects\MHW Skill Calculator\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.CopyComplete
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\bin\Debug\MHWSkillCalc.exe.config
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\bin\Debug\MHWSkillCalc.exe
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\bin\Debug\MHWSkillCalc.pdb
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\bin\Debug\Models.dll
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\bin\Debug\Models.pdb
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csprojAssemblyReference.cache
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.Forms.MainWindow.resources
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.Properties.Resources.resources
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.GenerateResource.cache
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.CoreCompileInputs.cache
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.CopyComplete
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.exe
+D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.pdb

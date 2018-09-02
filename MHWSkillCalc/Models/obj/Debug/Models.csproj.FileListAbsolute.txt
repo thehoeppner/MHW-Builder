@@ -4,3 +4,9 @@ D:\Projects\MHW Skill Calculator\MHWSkillCalc\Models\obj\Debug\Models.csprojAsse
 D:\Projects\MHW Skill Calculator\MHWSkillCalc\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 D:\Projects\MHW Skill Calculator\MHWSkillCalc\Models\obj\Debug\Models.dll
 D:\Projects\MHW Skill Calculator\MHWSkillCalc\Models\obj\Debug\Models.pdb
+D:\Projects\MHW Builder\MHWSkillCalc\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Projects\MHW Builder\MHWSkillCalc\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Projects\MHW Builder\MHWSkillCalc\Models\obj\Debug\Models.dll
+D:\Projects\MHW Builder\MHWSkillCalc\Models\obj\Debug\Models.pdb
+D:\Projects\MHW Builder\MHWSkillCalc\Models\bin\Debug\Models.dll
+D:\Projects\MHW Builder\MHWSkillCalc\Models\bin\Debug\Models.pdb

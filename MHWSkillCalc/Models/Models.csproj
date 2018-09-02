@@ -41,11 +41,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Armor\Armor.cs" />
+    <Compile Include="Armor\ArmorSet.cs" />
     <Compile Include="Armor\ArmorType.cs" />
+    <Compile Include="Armor\Assets.cs" />
+    <Compile Include="Armor\CraftingInfo.cs" />
     <Compile Include="Armor\Defense.cs" />
     <Compile Include="Armor\Rank.cs" />
     <Compile Include="Armor\Resistance.cs" />
+    <Compile Include="Armor\SetBonus.cs" />
+    <Compile Include="Armor\SetBonusRank.cs" />
+    <Compile Include="Armor\SetInfo.cs" />
+    <Compile Include="Armor\Slot.cs" />
+    <Compile Include="Crafting\CraftingCost.cs" />
+    <Compile Include="Item\Item.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skill\SkillRank.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

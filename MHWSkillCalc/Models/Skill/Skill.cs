@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace Models.Skill
 {
-    public class SkillRank
+    public class Skill
     {
         public int id { get; set; }
         public string slug { get; set; }
-        public int level { get; set; }
+        public string name { get; set; }
         public string description { get; set; }
-        public int skill { get; set; }
-        public string skillName { get; set; }
-        public Dictionary<string, int> modifiers { get; set; }
-
-
+        public IEnumerable<SkillRank> ranks { get; set; }
     }
 }

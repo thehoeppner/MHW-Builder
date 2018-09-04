@@ -10,3 +10,7 @@ D:\Projects\MHW Builder\MHWSkillCalc\Models\obj\Debug\Models.dll
 D:\Projects\MHW Builder\MHWSkillCalc\Models\obj\Debug\Models.pdb
 D:\Projects\MHW Builder\MHWSkillCalc\Models\bin\Debug\Models.dll
 D:\Projects\MHW Builder\MHWSkillCalc\Models\bin\Debug\Models.pdb
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\Models\obj\Debug\Models.dll
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\Models\obj\Debug\Models.pdb

@@ -52,10 +52,16 @@
     <Compile Include="Armor\SetBonusRank.cs" />
     <Compile Include="Armor\SetInfo.cs" />
     <Compile Include="Armor\Slot.cs" />
+    <Compile Include="Charm\Charm.cs" />
+    <Compile Include="Charm\CraftingInfo.cs" />
+    <Compile Include="Charm\Rank.cs" />
     <Compile Include="Crafting\CraftingCost.cs" />
+    <Compile Include="Decoration\Decoration.cs" />
     <Compile Include="Item\Item.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skill\Skill.cs" />
     <Compile Include="Skill\SkillRank.cs" />
+    <Compile Include="Skill\SkillRankModifier.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

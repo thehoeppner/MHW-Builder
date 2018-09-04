@@ -28,3 +28,18 @@ D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.
 D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.CopyComplete
 D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.exe
 D:\Projects\MHW Builder\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.pdb
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\bin\Debug\MHWSkillCalc.exe.config
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\bin\Debug\MHWSkillCalc.exe
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\bin\Debug\MHWSkillCalc.pdb
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\bin\Debug\Models.dll
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\bin\Debug\Models.pdb
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csprojAssemblyReference.cache
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.Forms.MainWindow.resources
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.Properties.Resources.resources
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.GenerateResource.cache
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.CoreCompileInputs.cache
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.csproj.CopyComplete
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.exe
+C:\Users\Prakti\Documents\Projekte\MHWSkillCalc\MHWSkillCalc\obj\Debug\MHWSkillCalc.pdb

@@ -1,0 +1,9 @@
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\bin\Debug\ViewModels.dll
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\bin\Debug\ViewModels.pdb
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\bin\Debug\Models.dll
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\bin\Debug\Models.pdb
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\obj\Debug\ViewModels.csprojAssemblyReference.cache
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\obj\Debug\ViewModels.csproj.CoreCompileInputs.cache
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\obj\Debug\ViewModels.csproj.CopyComplete
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\obj\Debug\ViewModels.dll
+D:\Projects\MHW Builder\MHWSkillCalc\ViewModels\obj\Debug\ViewModels.pdb

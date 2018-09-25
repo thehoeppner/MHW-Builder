@@ -11,7 +11,9 @@ namespace Models.Armor
         public int id { get; set; }
         public string name { get; set; }
         public string rank { get; set; }
-        public IEnumerable<Armor> pieces { get; set; }
+        public IEnumerable<ArmorSetArmor> pieces { get; set; }
         public SetBonus bonus { get; set; }
+
+        public Rank setRank { get { return RankConverter.GetRank(rank); } }
     }
 }

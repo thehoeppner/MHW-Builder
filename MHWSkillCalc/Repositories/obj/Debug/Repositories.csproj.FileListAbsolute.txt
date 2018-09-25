@@ -1,0 +1,11 @@
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\bin\Debug\Repositories.dll
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\bin\Debug\Repositories.pdb
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\bin\Debug\Models.dll
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\bin\Debug\Models.pdb
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\obj\Debug\Repositories.dll
+D:\Projects\MHW Builder\MHWSkillCalc\Repositories\obj\Debug\Repositories.pdb

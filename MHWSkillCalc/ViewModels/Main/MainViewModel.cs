@@ -21,6 +21,7 @@ namespace ViewModels.Main
         }
 
 
+        private IEnumerable<Models.Armor.Armor> allArmors;
         private ObservableCollection<Models.Armor.Armor> armors = new ObservableCollection<Models.Armor.Armor>();
         public ObservableCollection<Models.Armor.Armor> Armors
         {
@@ -35,6 +36,7 @@ namespace ViewModels.Main
             }
         }
 
+
         #region "Loading"
 
         public async Task LoadData()
@@ -42,13 +44,29 @@ namespace ViewModels.Main
             try
             {
                 await repository.LoadData();
-                Armors = new ObservableCollection<Models.Armor.Armor>(repository.Armors);
+                allArmors = repository.Armors;
+                Armors = new ObservableCollection<Models.Armor.Armor>(allArmors);
             }
             catch (Exception ex)
             {
                 service?.GetExceptionHandler()?.HandleException(
                     service?.GetLocalizationService()?.ErrorLoadingData, ex);
             }
+        }
+
+        public void Search(string searchValue)
+        {
+            if (!string.IsNullOrWhiteSpace(searchValue))
+            {
+                var searchResult = (from armor in allArmors
+                                    let slugOk = (armor.slug.Contains(searchValue))
+                                    let nameOk = (armor.name.Contains(searchValue))
+                                    let typeOk = (armor.type.Contains(searchValue))
+                                    where slugOk || nameOk || typeOk
+                                    select armor).ToList();
+                Armors = new ObservableCollection<Models.Armor.Armor>(searchResult);
+            }
+            else { Armors = new ObservableCollection<Models.Armor.Armor>(allArmors); }
         }
 
         #endregion

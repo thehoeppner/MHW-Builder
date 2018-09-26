@@ -34,5 +34,10 @@ namespace MHWEquipmentCalculator
         {
            await vm.LoadData();
         }
+
+        private void txtSearchValue_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key == Key.Enter) { vm.Search(txtSearchValue.Text); }
+        }
     }
 }

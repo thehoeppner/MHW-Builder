@@ -11,14 +11,64 @@
         Loaded="Window_Loaded">
         
     <Grid >
-        <ListView ItemsSource="{Binding Armors}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Background="Gray" Width="150" Height="20">
-                        
-                    </Grid>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Armors" FontSize="20" Margin="10,0,0,0"></TextBlock>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="55"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Suche" VerticalAlignment="Center" Margin="10,0,0,0" FontSize="15"></TextBlock>
+                <TextBox x:Name="txtSearchValue" Grid.Column="1"
+                         Margin="5,2" VerticalContentAlignment="Center" FontSize="15"
+                         PreviewKeyDown="txtSearchValue_PreviewKeyDown"></TextBox>
+                
+            </Grid>
+
+            <ListView ItemsSource="{Binding Armors}" HorizontalContentAlignment="Stretch" Grid.Row="2" Margin="5" BorderThickness="1" BorderBrush="DimGray">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="1" BorderBrush="Gray">
+                            <Grid Background="WhiteSmoke" Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="5*"></RowDefinition>
+                                    <RowDefinition Height="4*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding assets.imageMale}" HorizontalAlignment="Center"
+                                       VerticalAlignment="Center" Margin="1" Grid.RowSpan="2"></Image>
+                                <TextBlock Text="{Binding name}" Grid.Column="1" Foreground="Black" FontSize="15" Margin="5,0,0,0" VerticalAlignment="Center"></TextBlock>
+                                <Grid Grid.Row="1" Grid.Column="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="50"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Defense:" VerticalAlignment="Center" Margin="5,0,0,0" ></TextBlock>
+                                    <TextBlock Text="{Binding defense.base}" VerticalAlignment="Center" Grid.Column="1" Margin="5,0,0,0" ></TextBlock>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </Grid>
+        
     </Grid>
 </Window>
